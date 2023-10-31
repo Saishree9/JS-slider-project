@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: plum;
+}
+
+.top{
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.arrow{
+    height: 100px;
+}
+
+.left{
+    transform: rotate(180deg);
+}
+
+.frame{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#slider{
+    display: flex;
+}
+
+#slider img{
+    width: 100%;
+    height: 100%; 
+      
+}
+
+.container{
+ display: flex;
+ flex-direction: column;   
+ align-items: center;
+ gap: 50px;
+ text-align: center;
+}
